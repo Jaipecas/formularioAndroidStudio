@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MiFormularioJaimePerez</string>
+    <string name="textView_name">Nombre</string>
+    <string name="textView_sex">Sexo</string>
+    <string name="textView_age">Edad</string>
+    <string name="radioButton_Men">Hombre</string>
+    <string name="radioButton_Woman">Mujer</string>
+    <string name="editText_content">Introduzca nombre</string>
+    <string name="button_next">Next</string>
+    <string name="toast_errorName">Nombre no introducido</string>
+    <string name="toast_errorAge">La edad debe estar comprendida entre los 16 y los 55 años</string>
+    <string name="seekBar_Text">16</string>
+
+</resources>
