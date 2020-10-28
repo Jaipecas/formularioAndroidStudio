@@ -10,5 +10,9 @@
     <string name="toast_errorName">Nombre no introducido</string>
     <string name="toast_errorAge">La edad debe estar comprendida entre los 16 y los 55 años</string>
     <string name="seekBar_Text">16</string>
+    <string name="button_info">Información</string>
+    <string name="hint_mail">Escriba un email</string>
+    <string name="image_mail">image mail</string>
+    <string name="textview_mail">Mandar información por correo</string>
 
 </resources>

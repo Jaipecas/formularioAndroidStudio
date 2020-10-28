@@ -34,8 +34,9 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, R.string.toast_errorName, Toast.LENGTH_SHORT).show();
                 } else{
                     // Se accede al Activity2
-                    Intent intent = new Intent(MainActivity.this, Activity2.class);
-                    startActivity(intent);
+                    Intent intentActivity2 = new Intent(MainActivity.this, Activity2.class);
+                    intentActivity2.putExtra("nombre", name.getText().toString());
+                    startActivity(intentActivity2);
                 }
             }
         });
